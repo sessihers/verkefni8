@@ -38,7 +38,6 @@ const text = (() => {
     const data = textArea.value;
     add(data);
 
-    console.log(data);
   }
 
   // event handler fyrir það að klára færslu
@@ -113,7 +112,6 @@ const text = (() => {
   function deleteItem(e) {
     const { target } = e;
     target.parentNode.remove();
-    console.log('eytt');
   }
 
   // hjálparfall til að útbúa element
